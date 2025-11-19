@@ -199,7 +199,7 @@ PRECIO ESPECIAL:
 20 POR $318
 30 POR $477
 ———————————— 
-⯯*CUENTAS DE PAGO AQUÍ:* www.sorteoschoysoficial.com/pagos
+⯯*CUENTAS DE PAGO AQUÍ:* www.rifadecompasconcausabajío.com/pagos
 *Celular:* 4761328415
 
 El siguiente paso es enviar foto del comprobante de pago por aquí`;
