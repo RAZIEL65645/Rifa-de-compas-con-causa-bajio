@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rifas de Compas con Causa Bajío</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="logo.png"/>
+</head>
+<body>
+  <!-- BARRA SUPERIOR VERDE -->
+  <div class="barra-verde"></div>
+
+  <!-- MOBILE FIXED TOPBAR (solo en móvil) -->
+  <nav class="mobile-topbar">
+    <div class="topbar-item">MÉTODOS DE PAGO</div>
+    <div class="topbar-logo">
+      <span class="circ-logo-mobile">
+        <img src="logo.png" alt="Logo Rifas de Compas con Causa Bajío"/>
+        <span class="badge-verified"></span>
+      </span>
+    </div>
+    <div class="topbar-item">BOLETOS<br>DISPONIBLES</div>
+  </nav>
+
+  <!-- HEADER: LOGO CENTRADO y MENU DESKTOP SOLAMENTE -->
+  <header class="main-header">
+    <div class="header-flex">
+      <div class="logo-circulo">
+        <img src="logo.png" alt="Logo Rifas de Compas con Causa Bajío"/>
+        <span class="badge-verificado"></span>
+      </div>
+      <nav class="nav-desktop" id="navbar">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Preguntas Frecuentes</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Métodos de Pago</a></li>
+          <li><a href="#" class="btn-menu">Comprar Boletos</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- Segunda franja verde -->
+  <div class="barra-verde"></div>
+
+  <!-- HERO -->
+  <section class="hero-section">
+    <h1>MAZDA 3 I SPORT SEDÁN 2020<br><span class="hero-bonos">+ BONOS</span></h1>
+    <div class="hero-fecha">20 DE DICIEMBRE 2025</div>
+  </section>
+  <!-- Flecha y texto (lista de boletos) -->
+  <section class="ticket-arrow-section">
+    <div class="arrow-verde">&#9660;</div>
+    <span class="ticket-arrow-title">LISTA DE BOLETOS ABAJO</span>
+    <div class="arrow-verde">&#9660;</div>
+  </section>
+  <!-- Imagen del premio -->
+  <section class="premio-img-section">
+    <img src="premio_actual.jpg" alt="Premio Actual Mazda 3"/>
+  </section>
+  <!-- PRECIOS -->
+  <section class="precios-section">
+    <ul>
+      <li><b>1 BOLETO POR $120</b></li>
+      <li>2 BOLETOS POR $230</li>
+      <li>4 BOLETOS POR $450</li>
+      <li>7 BOLETOS POR $750</li>
+      <li>10 BOLETOS POR $1050</li>
+      <li>20 BOLETOS POR $2050</li>
+      <li>50 BOLETOS POR $5000</li>
+      <li>100 BOLETOS POR $9900</li>
+    </ul>
+  </section>
+  <!-- BONOS / CONDICIONES -->
+  <section class="bonos-section">
+    <div class="bonos-block">
+      <div class="bono-tit large-bold green">IPHONE 17 PRO MAX + $10,000 MXN<br>+ PLAYSTATION 5</div>
+      <div class="bono-info">COMPRANDO 10 BOLETOS O MÁS</div>
+      <div class="bono-tit red bold-space">ENVÍO GRATIS:</div>
+      <div class="bono-info">COMPRANDO 5 BOLETOS O MÁS</div>
+      <div class="bono-tit red">BONO POR COMPARTIR:<br><span class="green">$30,000 MXN</span></div>
+      <div class="bono-info">COMPARTIENDO EL 80% DEL CONTENIDO DEL SORTEO EN CURSO</div>
+      <div class="bono-tit red">BONO FORANEO:<br><span class="green">$10,000 MXN</span></div>
+      <div class="bono-info">SI ERES DE FUERA DEL ESTADO</div>
+      <div class="bono-seguir">PARA QUE SIGAS TIKTOK<br>HAZ CLIC AQUÍ:<br><span class="tiktok-link red">TIKTOK EL COMPA CHOY</span></div>
+    </div>
+  </section>
+  <!-- SELECCION DE NÚMEROS -->
+  <section class="numero-suerte-section">
+    <div class="ns-header">
+      <span class="arrow-blanca">&#9660;</span>
+      <h2>HAZ CLICK ABAJO EN TU NÚMERO DE LA SUERTE</h2>
+      <span class="arrow-blanca">&#9660;</span>
+    </div>
+    <div class="ns-buscadores">
+      <input type="text" id="num-search" placeholder="BUSCAR" maxlength="5"/>
+      <button id="lucky-btn">MAQUINITA DE LA SUERTE</button>
+    </div>
+    <div class="ns-leyenda">
+      <span class="cuadrito-leyenda"></span> Blancos – Disponibles
+    </div>
+    <div class="ns-grid" id="numbers-grid"></div>
+  </section>
+  <!-- Pie de página whatsapp -->
+  <footer class="footer-main">
+    <div class="footer-wsp-bar">
+      <a href="https://wa.me/524761328415" target="_blank">PREGUNTAS AL WHATSAPP<br>(476) 132 8415</a>
+    </div>
+    <div class="footer-blk">
+      <div class="footer-credito">
+        Sitio desarrollado por <u>Lotto Digital</u><br>
+        <span class="bytext">Armand Digital</span>
+      </div>
+    </div>
+  </footer>
+  <!-- WhatsApp flotante solo mobile -->
+  <a href="https://wa.me/524761328415" class="wa-float" id="wa-float" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp"/>
+  </a>
+  <!-- BANNER "SORTEOS SEGUROS" SOLO MOBILE -->
+  <div class="banner-seguro">
+    <span class="check-blue"></span>
+    ÉSTOS SORTEOS SON SEGUROS <br>
+    <span class="banner-details">ES UNA PÁGINA VERIFICADA. CLICK AQUÍ PARA MÁS DETALLES</span>
+  </div>
+  
+  <!-- MODAL MAQUINITA DE LA SUERTE -->
+  <div id="modal-luck" class="modal-luck-backdrop">
+    <div class="modal-luck-box">
+      <button class="modal-luck-close" id="modal-luck-close">✖</button>
+      <div class="modal-luck-inner">
+        <label for="luck-count" style="font-size:1.18em">BOLETOS A GENERAR:</label>
+        <select id="luck-count"></select>
+         <div class="slot-anim-casino">
+          <img src="maquinita.png" width="160" alt="maquina casino" />       
+        </div>
+        <div class="slot-anim-wrapper">
+          <div class="slot-anim" id="slot-anim"></div>
+        </div>
+        <div class="luck-result" id="luck-result"></div>
+        <button id="luck-spin-btn">GIRAR MAQUINITA</button>
+        <button id="luck-confirm-btn" style="display:none;">LOS QUIERO!</button>
+        <div id="datos-wsp-form" class="datos-wsp-form" style="display:none;">
+          <label for="cliente-nombre"><b>Tu nombre completo:</b></label>
+          <input type="text" id="cliente-nombre" placeholder="Ej: Juan Pérez" maxlength="60" />
+          <button id="enviar-wsp-btn" type="button">Enviar a WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
